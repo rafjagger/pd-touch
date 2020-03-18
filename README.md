@@ -71,5 +71,3 @@ How to:
 - put the pd-touch folder in puredata path
 - open master.pd (install required externals) and follow the 
 project-instructions
-
-enjoy!
