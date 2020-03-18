@@ -1,6 +1,5 @@
 # pd-touch
-puredata and touch-osc interface was made to automate audio-
-spatialization with panoramix (ircam).
+puredata and touch-osc interface was made to automate audio-spatialization with panoramix (ircam).
 
 In Touch-OSC you'll see 4 Banks each with 4 Units. Every 
 unit remotes azimuth and distance for a channel in panoramix.
