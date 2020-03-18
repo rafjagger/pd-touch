@@ -1,6 +1,8 @@
 # pd-touch
 puredata and touch-osc interface for Panoramix
 
+Please read the README.md as raw-file.
+
 It's made to automate audio-spatialization with panoramix. 
 
 In Touch-OSC you will see 4 Banks each with 4 Units. Each 
