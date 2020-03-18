@@ -60,7 +60,9 @@ Cartesian-Mode
 ```
 
 Record-Mode
+```
 Not Ready yet.
+```
 
 How to:
 - buy and install touch-osc on your smartphone
