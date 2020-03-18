@@ -14,7 +14,7 @@ Unit-description:
 	- centertext: actual mode
 	- frametext: direction
 	- startup-text: is hidden but appears on changing 
-	direction and mode
+	  direction and mode
 
 Polar-Mode
 ```
