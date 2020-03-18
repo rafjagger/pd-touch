@@ -65,9 +65,11 @@ Not Ready yet.
 ```
 
 How to:
+```
 - buy and install touch-osc on your smartphone
 - download touch-osc editor to your computer
 - upload iosx.touchosc to your smartphone (build on iPhone-Xr)
 - put the pd-touch folder in puredata path
 - open master.pd (install required externals) and follow the 
-project-instructions
+  project-instructions
+```
