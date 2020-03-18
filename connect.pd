@@ -1,0 +1,68 @@
+#N canvas 962 48 956 1131 12;
+#X obj 327 283 udpsend;
+#X obj 327 257 packOSC;
+#X obj 318 106 udpreceive 8000;
+#X obj 318 131 unpackOSC;
+#X msg 1602 -423 ---;
+#X obj 318 156 s unpacked_osc;
+#X obj 317 26 unpackOSC;
+#X obj 317 1 udpreceive 4001;
+#X obj 317 51 s pmx_unpacked_osc;
+#X obj -1 1 cnv 15 300 450 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X msg 318 81 port 8000;
+#X msg 384 232 connect 127.0.0.1 4002;
+#X msg 385 258 disconnect;
+#X obj 37 127 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 37 147 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 55 145 disconnect;
+#X obj 37 81 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 37 61 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 317 -25 port 4001;
+#X obj 327 232 r pmx;
+#X obj -77 51 loadbang;
+#X text 60 56 4001 (panoramix);
+#X text 35 103 pd osc-sends;
+#X text 34 37 pd udp-receive ports;
+#X text 55 125 127.0.0.1 4002 (panoramix);
+#X obj 37 167 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 37 187 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 55 185 disconnect;
+#X obj -276 242 udpsend;
+#X obj -276 217 packOSC;
+#X msg -218 217 disconnect;
+#X obj -276 192 r t-osc;
+#X msg -218 192 connect 192.168.43.117 9000;
+#X text 60 78 8000 (touchosc);
+#X text 55 165 192.168.43.117 9000 (touchosc);
+#X connect 1 0 0 0;
+#X connect 2 0 3 0;
+#X connect 3 0 5 0;
+#X connect 6 0 8 0;
+#X connect 7 0 6 0;
+#X connect 10 0 2 0;
+#X connect 11 0 0 0;
+#X connect 12 0 0 0;
+#X connect 13 0 11 0;
+#X connect 14 0 12 0;
+#X connect 16 0 10 0;
+#X connect 17 0 18 0;
+#X connect 18 0 7 0;
+#X connect 19 0 1 0;
+#X connect 20 0 17 0;
+#X connect 20 0 13 0;
+#X connect 20 0 16 0;
+#X connect 20 0 25 0;
+#X connect 25 0 32 0;
+#X connect 26 0 30 0;
+#X connect 29 0 28 0;
+#X connect 30 0 28 0;
+#X connect 31 0 29 0;
+#X connect 32 0 28 0;
+#X coords 0 -1 1 1 300 250 1 0 0;

@@ -1,0 +1,29 @@
+#N canvas 2 48 1916 1131 12;
+#X obj 303 173 connect;
+#X obj 613 173 channelstrip 0 0 1;
+#X obj 613 283 channelstrip 0 1 2;
+#X obj 613 393 channelstrip 0 2 3;
+#X obj 613 503 channelstrip 0 3 4;
+#X obj 923 173 channelstrip 1 0 5;
+#X obj 923 283 channelstrip 1 1 6;
+#X obj 923 393 channelstrip 1 2 7;
+#X obj 923 503 channelstrip 1 3 8;
+#X obj 1233 173 channelstrip 2 0 9;
+#X obj 1233 283 channelstrip 2 1 10;
+#X obj 1233 393 channelstrip 2 2 11;
+#X obj 1233 503 channelstrip 2 3 12;
+#X obj 1543 173 channelstrip 3 0 13;
+#X obj 1543 283 channelstrip 3 1 14;
+#X obj 1543 393 channelstrip 3 2 15;
+#X obj 1543 503 channelstrip 3 3 16;
+#X text 163 450 One abstraction per panoramix-channel you want to remote.
+;
+#X text 163 529 If touchosc and panoramix are running before puredata
+loads the project \, they should autoconnect. If not check the the
+ports in connect area and disconnect / reconnect after changing.;
+#X text 163 594 Edit the channelstrip-parameters directly in master.pd
+is more komfortable. Saving this project writes the actual channelstrip-settings
+to master.pd.;
+#X text 163 489 Set the touchosc-bank.;
+#X text 163 469 Set the panoramix-channel.;
+#X text 163 509 Set the touchosc- unit.;
