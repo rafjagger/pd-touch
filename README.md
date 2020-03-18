@@ -1,7 +1,7 @@
 # pd-touch
 puredata and touch-osc interface for Panoramix
 
-Please read the README.md as raw-file.
+READ THE README.md AS RAW.
 
 It's made to automate audio-spatialization with panoramix. 
 
