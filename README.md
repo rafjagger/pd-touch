@@ -31,11 +31,11 @@ Polar-Mode
 |-----|-----|------|
 |     |     |      |
 |     |     |------|
-|     |     | edit |
+|     |     | send |
 |-----|-----|------|
 
 - dir = direction
-- edit = output to panoramix on/off
+- send = send to panoramix toggle
 ```
 Cartesian-Mode
 ```
@@ -52,11 +52,11 @@ Cartesian-Mode
 |-----|-----|------|
 | spe | rad | dir-y|
 | ed  | ius |------|
-| -y  | -y  | edit |
+| -y  | -y  | send |
 |-----|-----|------|
 
 - dir = direction
-- edit = output to panoramix on/off
+- send = send to panoramix toggle
 ```
 
 Record-Mode
